@@ -3,7 +3,7 @@ package cs390.java;
 import java.util.*;
 
 public class craps2 {
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
@@ -73,6 +73,102 @@ public class craps2 {
     private static int rollDice(Random random) {
         int die1 = random.nextInt(6) + 1;
         int die2 = random.nextInt(6) + 1;
+
+        switch (die1) {
+            case 1:
+                System.out.println("--------");
+                System.out.println("|       |");
+                System.out.println("|   0   |");
+                System.out.println("|       |");
+                System.out.println("--------");
+                break;
+            case 2:
+                System.out.println("--------");
+                System.out.println("|  0    |");
+                System.out.println("|       |");
+                System.out.println("|     0 |");
+                System.out.println("--------");
+                break;
+            case 3:
+                System.out.println("--------");
+                System.out.println("| 0     |");
+                System.out.println("|   0   |");
+                System.out.println("|     0 |");
+                System.out.println("--------");
+                break;
+            case 4:
+                System.out.println("--------");
+                System.out.println("| 0   0 |");
+                System.out.println("|       |");
+                System.out.println("| 0   0 |");
+                System.out.println("--------");
+                break;
+            case 5:
+                System.out.println("--------");
+                System.out.println("| 0   0 |");
+                System.out.println("|   0   |");
+                System.out.println("| 0   0 |");
+                System.out.println("--------");
+                break;
+            case 6:
+                System.out.println("--------");
+                System.out.println("| 0   0 |");
+                System.out.println("| 0   0 |");
+                System.out.println("| 0   0 |");
+                System.out.println("--------");
+                break;
+            default:
+                System.out.println("error, returning to menu");
+                break;
+        }
+        switch (die2) {
+            case 1:
+                System.out.println("--------");
+                System.out.println("|       |");
+                System.out.println("|   0   |");
+                System.out.println("|       |");
+                System.out.println("--------");
+                break;
+            case 2:
+                System.out.println("--------");
+                System.out.println("|  0    |");
+                System.out.println("|       |");
+                System.out.println("|     0 |");
+                System.out.println("--------");
+                break;
+            case 3:
+                System.out.println("--------");
+                System.out.println("| 0     |");
+                System.out.println("|   0   |");
+                System.out.println("|     0 |");
+                System.out.println("--------");
+                break;
+            case 4:
+                System.out.println("--------");
+                System.out.println("| 0   0 |");
+                System.out.println("|       |");
+                System.out.println("| 0   0 |");
+                System.out.println("--------");
+                break;
+            case 5:
+                System.out.println("--------");
+                System.out.println("| 0   0 |");
+                System.out.println("|   0   |");
+                System.out.println("| 0   0 |");
+                System.out.println("--------");
+                break;
+            case 6:
+                System.out.println("--------");
+                System.out.println("| 0   0 |");
+                System.out.println("| 0   0 |");
+                System.out.println("| 0   0 |");
+                System.out.println("--------");
+                break;
+            default:
+                System.out.println("error, returning to menu");
+                break;
+        }
+
         return die1 + die2;
     }
 }
