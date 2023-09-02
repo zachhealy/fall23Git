@@ -3,7 +3,6 @@ package cs390.java;
 import java.util.*;
 
 public class craps {
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Random random = new Random();
