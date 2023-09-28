@@ -45,7 +45,7 @@ print(a)
 '''
 number 3
 ---------
-'''
+
 
 def avg2(x, n):
     a = np.random.randint(0, 1, 100)
@@ -63,7 +63,7 @@ a = avg2(x, n)
 
 print(a)
 
-
+'''
 
 '''
 number 4
@@ -102,7 +102,7 @@ print(sum)
 '''
 number 6
 ----------
-
+'''
 def num6(a1, a2, n):
     for i in range(n):
         j = i
@@ -123,7 +123,6 @@ a2 = np.random.randint(0, 100, n)
 
 print(num6(a1, a2, n))
 
-'''
 
 '''
 number 7
